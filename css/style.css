@@ -1,0 +1,56 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #6070FF;
+  height: 35px;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+li {
+  display: block;
+  padding-top:20px;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.portfolio {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.line {
+  width: 14px;
+  height: 2px;
+  background: #6070FF;
+  margin: 4px 10px;
+  border-radius:10px;
+}
+.menu {
+  display: none;  
+}
+@media all and (max-width: 680px) {
+  nav {
+    flex-direction: column;
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    }
+}
+
+.show {
+  display: block;
+}
