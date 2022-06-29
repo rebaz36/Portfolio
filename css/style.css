@@ -66,31 +66,29 @@ a {
 }
 
 .headline {
-    font-size: 70px;
-    font-weight: bold;
-    color: #172B4D;
-    margin: 0px 50px 20px 50px;
-    padding-top: 100px;
+  font-size: 70px;
+  font-weight: bold;
+  color: #172b4d;
+  margin: 0 50px 20px 50px;
+  padding-top: 100px;
 }
 
 .headline-paragraph {
-    font-size: 28px;
-    color: #172B4D;
-    margin: 20px 50px 20px 50px;
+  font-size: 28px;
+  color: #172b4d;
+  margin: 20px 50px 20px 50px;
 }
 
 .connect {
-    font-size: 28px;
-    font-weight: 100;
-    color: #7F8CFF;
-    margin: 40px 50px 20px 50px;
+  font-size: 28px;
+  font-weight: 100;
+  color: #7f8Cff;
+  margin: 40px 50px 20px 50px;
 }
 
 .icons {
-    background-image: url(../images/icons.png);
-    width: 50%;
-    height: 50px;
-    repeat: no-repeat;
-    background-repeat: no-repeat;
-    margin-left: 40px;
+  background-image: url(../images/icons.png);
+  width: 50%;
+  height: 40px;
+  margin-left: 40px;
 }
