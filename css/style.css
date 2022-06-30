@@ -1,4 +1,4 @@
-nav {
+header {
   display: flex;
   justify-content: space-between;
   color: #6070ff;
@@ -14,7 +14,7 @@ ul {
 }
 
 li {
-  padding-top: 20px;
+  padding-top: 10px;
   display: none;
 }
 
@@ -24,8 +24,8 @@ a {
 
 .portfolio {
   position: absolute;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 2px;
+  margin-left: 5px;
 }
 
 .line {
@@ -55,4 +55,42 @@ a {
 
 .show {
   display: block;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background-size: 100% 100%;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+}
+
+.headline {
+  font-size: 52px;
+  font-weight: bold;
+  color: #172b4d;
+  margin: 0 50px 20px 50px;
+  padding-top: 100px;
+}
+
+.headline-paragraph {
+  font-size: 20px;
+  color: #172b4d;
+  margin: 20px 50px 20px 50px;
+}
+
+.connect {
+  font-size: 20px;
+  font-weight: 100;
+  color: #7f8cff;
+  margin: 40px 50px 20px 50px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: 60px;
+  margin: 20px 50px 20px 10px;
 }
