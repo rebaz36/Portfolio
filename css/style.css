@@ -1,8 +1,12 @@
 header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   color: #6070ff;
-  height: 35px;
+  background-color: #ffff;
+}
+
+body {
+  background-color: #f5f5f5;
 }
 
 ul {
@@ -57,13 +61,15 @@ a {
   display: block;
 }
 
-.background {
+.headline-background {
   display: flex;
   flex-direction: column;
-  height: 600px;
   background-size: 100% 100%;
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
+  height: 700px;
+  border-radius: 0 0 0 50px;
+  background-color: #ffff;
 }
 
 .headline {
@@ -84,7 +90,7 @@ a {
   font-size: 20px;
   font-weight: 100;
   color: #7f8cff;
-  margin: 40px 50px 20px 50px;
+  margin: 20px 0 20px 50px;
 }
 
 .icons {
@@ -92,5 +98,5 @@ a {
   justify-content: space-between;
   width: 60%;
   height: 60px;
-  margin: 20px 50px 20px 10px;
+  margin: 0 0 0 10px;
 }
