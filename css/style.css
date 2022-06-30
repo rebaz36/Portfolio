@@ -1,4 +1,4 @@
-nav {
+header {
   display: flex;
   justify-content: space-between;
   color: #6070ff;
@@ -24,8 +24,8 @@ a {
 
 .portfolio {
   position: absolute;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 2px;
+  margin-left: 5px;
 }
 
 .line {
@@ -60,7 +60,8 @@ a {
 .background {
   top: 0;
   left: 0;
-  background-size: 425px 600px;
+  height: 600px;
+  background-size: 100% 100%;
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
 }
@@ -91,5 +92,5 @@ a {
   justify-content: space-between;
   width: 60%;
   height: 60px;
-  margin: 20px 50px 20px 50px;
+  margin: 20px 50px 20px 10px;
 }
