@@ -117,7 +117,7 @@ a {
   margin: 40px 80px;
 }
 
-span:before {
+span::before {
   content: "• ";
   margin-right: 5px;
 }
