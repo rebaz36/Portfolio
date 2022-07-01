@@ -234,3 +234,43 @@ h4 {
   background-color: #fff;
   width: 50%;
 }
+
+.skills {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #dfe1e6;
+  padding: 10px 0;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  background-color: #f5f5f5;
+  margin: 0 0 20px 0;
+  padding: 10px;
+  border-radius: 15px
+}
+
+.html {
+  color: orange;
+}
+
+.css {
+  color: blue;
+}
+
+.js {
+  color: #ffe135;
+}
+
+
