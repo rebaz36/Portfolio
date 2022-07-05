@@ -272,3 +272,56 @@ h4 {
 .js {
   color: #ffe135;
 }
+
+.form {
+  color: #fff;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 55px 55px 55px;
+  gap: 20px;
+  background-image: url("../images/form.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 100px 0 0 0;
+}
+
+input {
+  width: 330px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: #fff;
+  border: solid 1px #dfe1e6;
+}
+
+.form-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #6070ff;
+}
+
+.form-text {
+  border-radius: 10px;
+  height: 120px;
+  width: 330px;
+  padding: 10px;
+  background-color: #fff;
+  border: solid 1px #dfe1e6;
+}
+
+.form-des {
+  text-align: center;
+}
+
+.form-des h1 {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.form-des h2 {
+  font-size: 28px;
+  font-weight: 320;
+}
