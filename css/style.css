@@ -316,12 +316,12 @@ input {
   text-align: center;
 }
 
-.form-des h1 {
+.form-des h2 {
   font-size: 52px;
   font-weight: bold;
 }
 
-.form-des h2 {
+.form-des h3 {
   font-size: 28px;
   font-weight: 320;
 }
