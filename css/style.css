@@ -35,10 +35,6 @@ a {
 .portfolio {
   padding-left: 50px;
   margin: 0;
-  align-items: center;
-  justify-content: center;
-  place-items: center;
-  align-text: center;
 }
 
 .line {
@@ -333,9 +329,7 @@ input {
   color: #fff;
 }
 
-
 @media only screen and (min-width: 768px) {
-
   .menu {
     display: none;
   }
@@ -348,7 +342,7 @@ input {
   .desktop-nav {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     padding-right: 40px;
   }
 
@@ -368,10 +362,8 @@ input {
   }
 
   .portfolio {
+    padding-top: 20px;
     padding-left: 100px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
   }
 
 }
