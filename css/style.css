@@ -452,4 +452,8 @@ span::before {
     width: 600px;
     place-self: center;
   }
+
+  .form-button {
+    align-self: center;
+  }
 }
