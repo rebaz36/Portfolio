@@ -199,6 +199,10 @@ span::before {
   width: 100%;
 }
 
+.works-img:hover {
+  transform: scale(1.1);
+}
+
 .works-image-container {
   padding: 20px;
   display: flex;
@@ -325,6 +329,15 @@ span::before {
 .form-des h3 {
   font-size: 28px;
   font-weight: 320;
+}
+
+.form-instruction:hover {
+  transform: translate(42px, 0);
+}
+
+.button:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .form-button:hover {
