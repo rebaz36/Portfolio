@@ -128,7 +128,7 @@ span::before {
   grid-row-start: 3;
 }
 
-.grid-r4{
+.grid-r4 {
   grid-row-start: 4;
 }
 
@@ -140,7 +140,6 @@ span::before {
   border-color: #dfe1e6;
   border-radius: 15px;
   background-color: #fff;
-
 }
 
 .works-content {
@@ -293,7 +292,6 @@ span::before {
   display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
 
 .f-input {
@@ -441,7 +439,7 @@ span::before {
     background-size: 100% 100%;
     padding: 60px 55px 55px 55px;
     border-radius: 100px 0 0 0;
-    background-color: #6070FF;
+    background-color: #6070ff;
   }
 
   .form-des {
@@ -454,5 +452,4 @@ span::before {
     width: 600px;
     place-self: center;
   }
-
 }
