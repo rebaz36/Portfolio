@@ -17,7 +17,7 @@ HTML/CSS
 
 ## Deployment
 This project is hosted on GitHub using Github Pages check out the link below
-Live website : [MyPortfolio](https://rebaz36.github.io/Portfolio/)
+- Live website : [MyPortfolio](https://rebaz36.github.io/Portfolio/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
