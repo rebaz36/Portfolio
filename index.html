@@ -2,33 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/4e96f49cc5.js" crossorigin="anonymous"></script>
+    
+    <title>Portfolio</title>
+
 </head>
-<body>
+<body id="body">
     <header>
         <h1 class="portfolio">Portfolio</h1>
         <nav>
-            <ul class="desktop-nav">
-                <li class="nav-item" ><a>Home</a></li>
-                <li class="nav-item" ><a>About</a></li>
-                <li class="nav-item" ><a>Contact</a></li>
-            </ul>
 
-            <div class="mobile-nav">
+            <div class="hamburger-menue" id="mobileMenu">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
+            
+            <ul class="desktop-nav">
+                <li class="nav-item" ><a href="#Portfolio">Portfolio</a></li>
+                <li class="nav-item" ><a href="#About">About</a></li>
+                <li class="nav-item" ><a href="#Contact">Contact</a></li>
+            </ul>
+
+            <div class="mobile-nav" id="mobile-nav">
+                <ul class="mobile-nav-content">
+                    <li class="close fa-solid fa-x fa-2xs"></li>
+                    <li class="nav-item" ><a href="#Portfolio">Portfolio</a></li>
+                    <li class="nav-item" ><a href="#About">About</a></li>
+                    <li class="nav-item" ><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
+
     </header>
 
-    <section class="headline-background">
+    <section id="Portfolio" class="headline-background">
         <div class="headline-container">
             <h2 class="headline">I’m Alexandra Glad to see you!</h2>
             <p class="headline-paragraph">
@@ -161,7 +175,7 @@
             </div>
     </section>
     <section class="footer-container">
-        <div class="about-container">
+        <div id="About" class="about-container">
             <div class="about-des">
                 <h2 class="about-title">About Myself</h2>
                 <p class="headline-paragraph">
@@ -222,6 +236,7 @@
         action="https://formspree.io/f/mwkydlpq"
         method="POST"
         class="form"
+        id="Contact"
         >
             <div class="form-des">
                 <h2>Conatct Me</h2>
@@ -239,5 +254,6 @@
             </div>
         </form>
     </section>
+    <script src="./index.js" ></script>
 </body>
 </html>
