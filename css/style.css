@@ -20,6 +20,7 @@ header {
   height: 100%; /* Full height */
   background-color: #6070ff; /* Black background with opacity */
   opacity: 0.9; /* 90% opaque */
+  overflow-y: hidden; /* Disable horizontal scroll */
 }
 
 .mobile-nav-content {
@@ -29,7 +30,7 @@ header {
   margin: 0;
   text-align: left;
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .close {
