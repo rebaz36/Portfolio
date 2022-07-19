@@ -29,14 +29,13 @@ header {
   margin: 0;
   text-align: left;
   font-size: 40px;
-  font-weight: 00;
+  font-weight: 400;
 }
 
 .close {
   float: right;
   padding: 10px;
-  text-shadow:1px 1px 10px black ;
-
+  text-shadow: 1px 1px 10px black;
 }
 
 .close:hover,
