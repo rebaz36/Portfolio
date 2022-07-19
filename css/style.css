@@ -1,3 +1,9 @@
+body {
+  font-family: "Poppins", "Helvetica Neue", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -6,10 +12,40 @@ header {
   padding-bottom: 50px;
 }
 
-body {
-  font-family: "Poppins", "Helvetica Neue", sans-serif;
-  background-color: #f5f5f5;
+.mobile-nav {
+  display: none;
+  position: fixed; /* Stay in place */
+  top: 0; /* Stay at the top */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: #6070ff; /* Black background with opacity */
+  opacity: 0.9; /* 90% opaque */
+}
+
+.mobile-nav-content {
+  color: #fff;
+  padding: 20px;
+  width: 95%;
   margin: 0;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 00;
+}
+
+.close {
+  float: right;
+  padding: 10px;
+  text-shadow:1px 1px 10px black ;
+
+}
+
+.close:hover,
+.close:focus {
+  cursor: pointer;
+}
+
+.nav-item {
+  padding-top: 20px;
 }
 
 ul {
@@ -32,6 +68,13 @@ a {
   display: none;
 }
 
+.close-menu {
+  text-align: right;
+  padding-right: 15%;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
 .portfolio {
   padding-left: 50px;
   margin: 0;
@@ -49,11 +92,15 @@ nav {
   flex-direction: column;
 }
 
-.mobile-nav {
+.hamburger-menue {
   display: block;
   position: absolute;
   right: 15px;
   top: 15px;
+}
+
+.hamburger-menue:hover {
+  cursor: pointer;
 }
 
 .show {
@@ -342,6 +389,14 @@ span::before {
     display: none;
   }
 
+  .close-menu {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
   header {
     flex-direction: row;
     justify-content: space-between;
@@ -354,7 +409,7 @@ span::before {
     padding-right: 40px;
   }
 
-  .mobile-nav {
+  .hamburger-menue {
     display: none;
   }
 
