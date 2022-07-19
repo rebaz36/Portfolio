@@ -1,4 +1,5 @@
 const modal = document.getElementById('mobile-nav');
+
 const body = document.getElementById('body');
 
 const btn = document.getElementById('mobileMenu');
