@@ -1,17 +1,25 @@
-const hamburgerMenu = document.querySelector('.hamburger-menu');
+// Get the modal
+var modal = document.getElementById("mobile-nav");
 
-const navigation = document.querySelector('.frame-navigation');
+// Get the button that opens the modal
+var btn = document.getElementById("mobileMenu");
 
-const closeMenu = document.querySelector('.close-menu');
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
-const show = () => { navigation.setAttribute('data-visible', true); };
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
 
-hamburgerMenu.addEventListener('click', show);
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
 
-const closeShow = () => { navigation.setAttribute('data-visible', false); };
-
-closeMenu.addEventListener('click', closeShow);
-
-const nav = document.querySelectorAll('.nav');
-
-nav.forEach((n) => n.addEventListener('click', closeShow));
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
