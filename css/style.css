@@ -205,7 +205,6 @@ span::before {
   font-size: 40px;
   font-weight: bold;
   color: #172b4d;
-  padding: 20px 0 0 0;
   margin: 0;
 }
 
@@ -241,6 +240,11 @@ span::before {
   padding: 15px;
   background-color: #fff;
   width: 40%;
+}
+
+.button:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .works-headline {
@@ -381,8 +385,9 @@ span::before {
 }
 
 .form-button:hover {
-  background-color: #dfe1e6;
-  color: black;
+  background-color: #6070ff;
+  color: #fff;
+  border: solid 2spx #fff;
 }
 
 .btn:hover {
@@ -390,6 +395,101 @@ span::before {
   color: #fff;
 }
 
+/* Work Modal Styles */
+.workModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.workModal-content {
+  margin: 50px;
+  background-color: #fff;
+  border-radius:15px;
+  padding: 20px;
+}
+
+hr {
+  color: #ebecf0;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.workModal-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.workModal-Close {
+  color: #67798e;
+  float: right;
+  margin: 15px 20px 0 0;
+  text-shadow: rgba(103, 121, 142, 0.8) 3px 1px 4px;
+}
+
+.workModal-Title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #172b4d;
+  margin: 0;
+}
+
+.workModal-headline {
+  color: black;
+  font-size: 16px;
+}
+
+.lightgrey {
+    color: #7a869a;
+}
+
+.workModal-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.workModal-button {
+  font-size: 20px;
+  border: solid 1px #6070ff;
+  color: #6070ff;
+  border-radius: 10px;
+  padding: 15px 5px;
+  background-color: #fff;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.workModal-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.workModal-button-logo {
+  width: 13%;
+  height: 13%;
+  background-color: #fff;
+  padding: 2px;
+  border-radius:3px;
+}
+
+@media only screen and (min-width:600px) {
+  .workModal-button-logo {
+    width: 20px;
+    height: 20px;
+  }
+}
+/* End of Work modal styles */
+
+/* When the size of the screen is lemoress than 768px, change the styles */
 @media only screen and (min-width: 768px) {
   .menu {
     display: none;
