@@ -35,22 +35,22 @@ work1.onclick = function work1() {
   const work1Modal = document.getElementById('work1Modal');
   work1Modal.style.display = 'block';
   body.style.overflow = 'hidden';
-}
+};
 work2.onclick = function work2() {
   const work2Modal = document.getElementById('work2Modal');
   work2Modal.style.display = 'block';
   body.style.overflow = 'hidden';
-}
+};
 work3.onclick = function work3() {
   const work3Modal = document.getElementById('work3Modal');
   work3Modal.style.display = 'block';
   body.style.overflow = 'hidden';
-}
+};
 work4.onclick = function work4() {
   const work4Modal = document.getElementById('work4Modal');
   work4Modal.style.display = 'block';
   body.style.overflow = 'hidden';
-}
+};
 
 // Works Modal Close button
 const close1 = document.getElementById('Work1Close');
@@ -63,19 +63,19 @@ close1.onclick = function close1() {
   const work1Modal = document.getElementById('work1Modal');
   work1Modal.style.display = 'none';
   body.style.overflow = 'visible';
-}
+};
 close2.onclick = function close2() {
   const work2Modal = document.getElementById('work2Modal');
   work2Modal.style.display = 'none';
   body.style.overflow = 'visible';
-}
+};
 close3.onclick = function close3() {
   const work3Modal = document.getElementById('work3Modal');
   work3Modal.style.display = 'none';
   body.style.overflow = 'visible';
-}
+};
 close4.onclick = function close4() {
   const work4Modal = document.getElementById('work4Modal');
   work4Modal.style.display = 'none';
   body.style.overflow = 'visible';
-}
+};
