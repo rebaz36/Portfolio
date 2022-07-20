@@ -196,7 +196,7 @@ span::before {
 }
 
 .works-item:hover {
-  box-shadow: 0 4px 8px 0 rgba(37,47,137, 0.1), 0 6px 20px 0 rgba(37,47,137, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(37, 47, 137, 0.1), 0 6px 20px 0 rgba(37, 47, 137, 0.1);
 }
 
 .works-content {
@@ -392,7 +392,7 @@ span::before {
 .form-button:hover {
   background-color: #6070ff;
   color: #fff;
-  border: solid 2spx #fff;
+  border: solid 2px #fff;
 }
 
 .btn:hover {
@@ -415,7 +415,7 @@ span::before {
 .workModal-content {
   margin: 50px;
   background-color: #fff;
-  border-radius:15px;
+  border-radius: 15px;
   padding: 20px;
 }
 
@@ -457,7 +457,7 @@ hr {
 }
 
 .lightgrey {
-    color: #7a869a;
+  color: #7a869a;
 }
 
 .workModal-button-container {
@@ -488,7 +488,7 @@ hr {
   height: 13%;
   background-color: #fff;
   padding: 2px;
-  border-radius:3px;
+  border-radius: 3px;
 }
 
 .workModalDes {
@@ -501,12 +501,13 @@ hr {
   margin: 0 0 20px 0;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width: 600px) {
   .workModal-button-logo {
     width: 20px;
     height: 20px;
   }
 }
+
 /* End of Work modal styles */
 
 /* When the size of the screen is lemoress than 768px, change the styles */
@@ -653,7 +654,7 @@ hr {
   .workModal-content {
     margin: 50px 80px;
     background-color: #fff;
-    border-radius:15px;
+    border-radius: 15px;
     padding: 20px;
     width: 80%;
   }
@@ -697,7 +698,7 @@ hr {
   }
 
   .lightgrey {
-      color: #7a869a;
+    color: #7a869a;
   }
 
   .workModal-button-container {
@@ -728,7 +729,7 @@ hr {
     height: 13%;
     background-color: #fff;
     padding: 2px;
-    border-radius:3px;
+    border-radius: 3px;
   }
 
   .workModal-flex-container {
@@ -745,5 +746,6 @@ hr {
   .workModal-element-container {
     width: 35%;
   }
+  
   /* End of Work modal styles */
 }
