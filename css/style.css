@@ -258,6 +258,7 @@ span::before {
 
 .works-img {
   width: 100%;
+  place-self: center;
 }
 
 .works-image-container {
@@ -425,10 +426,15 @@ hr {
   margin-bottom: 30px;
 }
 
-.workModal-image {
+.workModal-image-container {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+}
+
+.workModal-img {
+  width: 100%;
+  place-self: center;
 }
 
 .workModal-Close {
@@ -483,6 +489,16 @@ hr {
   background-color: #fff;
   padding: 2px;
   border-radius:3px;
+}
+
+.workModalDes {
+  display: none;
+}
+
+.workModalDescription {
+  font-size: 20px;
+  color: #344563;
+  margin: 0 0 20px 0;
 }
 
 @media only screen and (min-width:600px) {
@@ -621,4 +637,113 @@ hr {
   .form-button {
     align-self: center;
   }
+
+  /* Work Modal Styles */
+  .workModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .workModal-content {
+    margin: 50px 80px;
+    background-color: #fff;
+    border-radius:15px;
+    padding: 20px;
+    width: 80%;
+  }
+
+  hr {
+    color: #ebecf0;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .workModal-img {
+    display: none;
+  }
+
+  .workModalDes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 25%;
+    width: auto;
+  }
+
+  .workModal-Close {
+    color: #67798e;
+    float: right;
+    margin: 15px 20px 0 0;
+    text-shadow: rgba(103, 121, 142, 0.8) 3px 1px 4px;
+  }
+
+  .workModal-Title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #172b4d;
+    margin: 0;
+  }
+
+  .workModal-headline {
+    color: black;
+    font-size: 16px;
+  }
+
+  .lightgrey {
+      color: #7a869a;
+  }
+
+  .workModal-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .workModal-button {
+    font-size: 20px;
+    border: solid 1px #6070ff;
+    color: #6070ff;
+    border-radius: 10px;
+    padding: 15px 5px;
+    background-color: #fff;
+    width: 40%;
+    justify-content: space-around;
+  }
+
+  .workModal-button:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  .workModal-button-logo {
+    width: 13%;
+    height: 13%;
+    background-color: #fff;
+    padding: 2px;
+    border-radius:3px;
+  }
+
+  .workModal-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .workModalDescription {
+    width: 60%;s
+  }
+
+  .workModal-element-container {
+    width: 35%;
+  }
+  /* End of Work modal styles */
 }
