@@ -195,6 +195,10 @@ span::before {
   background-color: #fff;
 }
 
+.works-item:hover {
+  box-shadow: 0 4px 8px 0 rgba(37,47,137, 0.1), 0 6px 20px 0 rgba(37,47,137, 0.1);
+}
+
 .works-content {
   display: flex;
   flex-direction: column;
