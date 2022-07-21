@@ -197,6 +197,8 @@ function showSuccess(input) {
   return displayMessage(input, '', true);
 }
 
+/* commit here */
+
 function validateEmail(input, invalidMsg) {
   const email = input.value.trim();
   if (email !== email.toLowerCase()) {
@@ -215,3 +217,5 @@ form.addEventListener('submit', (e) => {
     localStorage.clear();
   }
 });
+
+/* commit here */
