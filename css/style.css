@@ -893,7 +893,7 @@ form ul li textarea:focus {
   form ul li textarea:focus {
     border: 2px solid var(--blue);
   }
-  
+
   #submit-btn {
     display: block;
     margin-top: 27px;

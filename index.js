@@ -210,7 +210,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   const emailValid = validateEmail(form.elements.email, EMAIL_INVALID);
   if (emailValid) {
-  form.submit();
-  localStorage.clear();
- }
+    form.submit();
+    localStorage.clear();
+  }
 });
