@@ -659,6 +659,7 @@ form ul li textarea:focus {
   color: var(--white);
   border: 1px solid var(--white);
 }
+
 /* contact section styling ends here */
 
 /* When the size of the screen is lemoress than 768px, change the styles */
@@ -744,6 +745,7 @@ form ul li textarea:focus {
   .skill-item {
     gap: 10px;
   }
+
   /* Work Modal Styles */
 
   /* works section styling starts here */
@@ -836,6 +838,7 @@ form ul li textarea:focus {
     border-bottom: 3px solid var(--deep-navy-blue);
     font-weight: 900;
   }
+  
   /* modal section styling ends here */
 
   /* contact section styling starts here */
