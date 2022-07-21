@@ -881,7 +881,6 @@ form ul li textarea:focus {
     border-radius: 2px;
   }
   
-  /* commit here */
   form ul li input:focus {
   border: 2px solid var(--blue);
  }
@@ -898,5 +897,4 @@ form ul li textarea:focus {
   transform: translateX(100px);
   margin-bottom: 127px;
  }
-  /* commit here */
 }
