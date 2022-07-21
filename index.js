@@ -24,58 +24,156 @@ window.onclick = function windownone(event) {
 };
 
 // Works Modal Popup Window
-// Get Works Section Button Elements
-const work1 = document.getElementById('work1');
-const work2 = document.getElementById('work2');
-const work3 = document.getElementById('work3');
-const work4 = document.getElementById('work4');
+const projectDatas = [
+  {
+    name: 'Tonic',
+    author: 'CANOPY',
+    stack: 'Back End dev ',
+    year: 2022,
+    description: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
+    Modaldescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    featuredImage: 'images/works/1.png',
+    desktopImage: 'images/worksModal/workModalDes.png',
+    technologies: ['html', 'css', 'javascript', 'Github'],
+    liveVersion: 'https://www.google.com',
+    source: 'https://www.google.com',
+  },
+  {
+    name: 'Multi-Post Stories',
+    author: 'CANOPY',
+    stack: 'Back End dev ',
+    year: 2015,
+    description: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
+    Modaldescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    featuredImage: 'images/works/2.png',
+    desktopImage: 'images/worksModal/workModalDes.png',
+    technologies: ['html', 'css', 'javascript', 'Ruby', 'Github'],
+    liveVersion: 'https://www.google.com',
+    source: 'https://www.google.com',
+  },
+  {
+    name: 'Tonic',
+    author: 'CANOPY',
+    stack: 'Back End dev ',
+    year: 2022,
+    description: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
+    Modaldescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    featuredImage: 'images/works/3.png',
+    desktopImage: 'images/worksModal/workModalDes.png',
+    technologies: ['html', 'css', 'javascript', 'Ruby', 'Github'],
+    liveVersion: 'https://www.google.com',
+    source: 'https://www.google.com',
+  },
+  {
+    name: 'Tonic',
+    author: 'CANOPY',
+    stack: 'Back End dev ',
+    year: 2022,
+    description: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
+    Modaldescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    featuredImage: 'images/works/4.png',
+    desktopImage: 'images/worksModal/workModalDes.png',
+    technologies: ['html', 'css', 'javascript', 'Ruby', 'Github'],
+    liveVersion: 'https://scotlandadventureapp.herokuapp.com',
+    source: 'https://github.com/vickymarz/scotland-adventures',
+  },
+];
 
-// onclick event for each button
-work1.onclick = function work1() {
-  const work1Modal = document.getElementById('work1Modal');
-  work1Modal.style.display = 'block';
-  body.style.overflow = 'hidden';
-};
-work2.onclick = function work2() {
-  const work2Modal = document.getElementById('work2Modal');
-  work2Modal.style.display = 'block';
-  body.style.overflow = 'hidden';
-};
-work3.onclick = function work3() {
-  const work3Modal = document.getElementById('work3Modal');
-  work3Modal.style.display = 'block';
-  body.style.overflow = 'hidden';
-};
-work4.onclick = function work4() {
-  const work4Modal = document.getElementById('work4Modal');
-  work4Modal.style.display = 'block';
-  body.style.overflow = 'hidden';
-};
+document.querySelector('.works').innerHTML = projectDatas
+  .map(
+    (data) => `
+    <section class="project">
+<div class="project-img">
+<img
+src= ${data.featuredImage}
+class="snapshoot"
+alt="Tonic project image"
+/>
+</div>
+<div class="project-description">
+<h2 class="project-title">${data.name}</h2>
+<ul class="project-author">
+<li>${data.author}</li>
+<li>${data.stack}</li>
+<li>${data.year}</li>
+</ul>
+<p class="project-text"
+>${data.description}</p
+>
+<ul class="project-tools">
+${data.technologies.map((tech) => `<li>${tech}</li>`).join('')}
+</ul>
+<button type="button" class="btn">See Project</button>
+</div>
+</section>
+    `,
+  )
+  .join('');
 
-// Works Modal Close button
-const close1 = document.getElementById('Work1Close');
-const close2 = document.getElementById('Work2Close');
-const close3 = document.getElementById('Work3Close');
-const close4 = document.getElementById('Work4Close');
+for (let i = 0; i <= projectDatas.length; i += 1) {
+  if (i % 2 === 1) {
+    document.querySelectorAll('.project')[i].classList.add('order');
+  }
+}
 
-// onclick event for each close button
-close1.onclick = function close1() {
-  const work1Modal = document.getElementById('work1Modal');
-  work1Modal.style.display = 'none';
-  body.style.overflow = 'visible';
-};
-close2.onclick = function close2() {
-  const work2Modal = document.getElementById('work2Modal');
-  work2Modal.style.display = 'none';
-  body.style.overflow = 'visible';
-};
-close3.onclick = function close3() {
-  const work3Modal = document.getElementById('work3Modal');
-  work3Modal.style.display = 'none';
-  body.style.overflow = 'visible';
-};
-close4.onclick = function close4() {
-  const work4Modal = document.getElementById('work4Modal');
-  work4Modal.style.display = 'none';
-  body.style.overflow = 'visible';
-};
+// modals user interface
+document.querySelector('.modals').innerHTML = projectDatas
+  .map(
+    (data) => `
+<div class="modal">
+<div class="modal-container">
+<div class="modal-title">
+<h2 class="project-title">${data.name}</h2>
+<div class="close">
+<i class="fa fa-times fa-1x"></i>
+</div>
+</div>
+<ul class="project-author">
+<li>${data.author}</li>
+<li>${data.stack}</li>
+<li>${data.year}</li>
+</ul>
+<div class="project-img">
+<img
+src= ${data.desktopImage}
+class="snapshoot"
+alt="Tonic project image"
+/>
+</div>
+<div class="modal-description">
+<p class="project-text">${data.Modaldescription}</p>
+<div class="modal-tools">
+<ul class="project-tools">
+${data.technologies.map((tech) => `<li>${tech}</li>`).join('')}
+</ul>
+<span></span>
+<div class="buttons">
+<a href="${data.liveVersion}" class="modal-button" target="_blank" rel="noopener noreferrer">See Live <img src="./images/worksModal/Live.png" alt="live site icon" class="modal-img"/></a>
+<a href="${data.source}" class="modal-button" target="_blank" rel="noopener noreferrer">See Source <img src="./images/worksModal/Github.png" alt="github icon" class="modal-img"/></a>
+</div>
+</div>
+</div>
+</div>
+</div>`,
+  )
+  .join('');
+
+// event listeners for opening modal on button click
+const modalButtons = Array.from(document.querySelectorAll('.btn'));
+const modals = Array.from(document.querySelectorAll('.modal'));
+
+const modalButtonZip = modalButtons.map((button, i) => [button, modals[i]]);
+modalButtonZip.forEach((pair) => {
+  pair[0].addEventListener('click', () => {
+    pair[1].style.display = 'block';
+  });
+});
+
+// event listener for closing modal on button click
+document.querySelectorAll('.close').forEach((close) => {
+  close.addEventListener('click', () => {
+    document.querySelectorAll('.modal').forEach((modal) => {
+      modal.style.display = 'none';
+    });
+  });
+});
