@@ -178,8 +178,6 @@ document.querySelectorAll('.close').forEach((close) => {
   });
 });
 
-
-
 // Form Validation
 const form = document.getElementById('form');
 
