@@ -198,5 +198,20 @@ function showSuccess(input) {
 }
 
 /* commit here */
-
+function validateEmail(input, invalidMsg) {
+ const email = input.value.trim();
+ if (email !== email.toLowerCase()) {
+  return showError(input, invalidMsg);
+ }
+ showSuccess(input);
+ return true;
+}
+form.addEventListener(‘submit’, (e) => {
+ e.preventDefault();
+ const emailValid = validateEmail(form.elements.email, EMAIL_INVALID);
+ if (emailValid) {
+  form.submit();
+  localStorage.clear();
+ }
+});
 /* commit here */
