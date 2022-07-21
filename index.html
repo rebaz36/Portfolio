@@ -130,27 +130,53 @@
 
             </div>
         </div>
-        <form
-        action="https://formspree.io/f/mwkydlpq"
-        method="POST"
-        class="form"
-        id="Contact"
-        >
-            <div class="form-des">
-                <h2>Conatct Me</h2>
-                <h3>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </h3>    
-            </div>
-
-            <div class="form-input">
-                <input class="f-input" type="text" name="name" required maxlength="30" placeholder="Name...">
-
-                <input class="f-input" type="email" name="email" required placeholder="Email...">
-        
-                <textarea class="f-input form-text" name="message" maxlength="500" required placeholder="write your message here..."></textarea>
-        
-                <button class="form-button" type="submit">Get in Touch</button>
-            </div>
-        </form>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2>Contact me</h2>
+            <p
+                >If you have an application you are interested in developing, a feature that you need
+                built or a project that needs coding. I’d love to help with it
+            </p>
+            <form action="https://formspree.io/f/mwkydlpq" method="POST" id="form">
+                <ul>
+                    <li class="form-element">
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Enter Your Name"
+                            maxlength="30"
+                            required
+                        />
+                    </li>
+                    <li class="form-element">
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Enter a valid email"
+                            required
+                        />
+                    </li>
+                    <li class="form-element">
+                        <textarea
+                            name="message"
+                            cols="30"
+                            rows="10"
+                            maxlength="500"
+                            id="description"
+                            placeholder="Write your message here"
+                            required
+                        ></textarea>
+                    </li>
+                </ul>
+                <div class="validate">
+                    <button type="submit" id="submit-btn">Get In Touch</button>
+                    <small></small>
+                </div>
+            </form>
+        </div>
     </section>
     <section class="modals"></section>
     <script src="./index.js" ></script>
