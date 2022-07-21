@@ -27,7 +27,7 @@ window.onclick = function windownone(event) {
 const projectDatas = [
   {
     name: 'Tonic',
-    author: 'CANOPY',
+    author: 'Rebaz',
     stack: 'Back End dev ',
     year: 2022,
     description: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
@@ -40,9 +40,9 @@ const projectDatas = [
   },
   {
     name: 'Multi-Post Stories',
-    author: 'CANOPY',
+    author: 'Rebaz',
     stack: 'Back End dev ',
-    year: 2015,
+    year: 2022,
     description: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
     Modaldescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     featuredImage: 'images/works/2.png',
@@ -53,8 +53,8 @@ const projectDatas = [
   },
   {
     name: 'Tonic',
-    author: 'CANOPY',
-    stack: 'Back End dev ',
+    author: 'Rebaz',
+    stack: 'Front End dev ',
     year: 2022,
     description: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
     Modaldescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -66,8 +66,8 @@ const projectDatas = [
   },
   {
     name: 'Tonic',
-    author: 'CANOPY',
-    stack: 'Back End dev ',
+    author: 'Rebaz',
+    stack: 'Front End dev ',
     year: 2022,
     description: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
     Modaldescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
