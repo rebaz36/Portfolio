@@ -544,12 +544,11 @@ button:disabled {
 }
 
 .modal-container {
-  margin: 30px 16px;
+  margin: 40px 120px;
   border: 1px solid #dfe1e6;
   background: var(--white);
   border-radius: 16px;
-  min-height: 713px;
-  padding: 18px 16px;
+  padding: 0 20px;
 }
 
 .modal-title {
@@ -762,9 +761,6 @@ input.success {
     flex: 1;
     display: flex;
     justify-content: center;
-    place-self: center;
-    place-items: center;
-    align-items: center;
   }
 
   .project-img img {
