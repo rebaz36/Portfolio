@@ -27,8 +27,8 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  color: #6070ff;
-  background-color: #ffff;
+  color: var(--primary-color);
+  background-color: var(--white);
   padding-bottom: 50px;
 }
 
@@ -43,7 +43,7 @@ header {
 }
 
 .mobile-nav-content {
-  color: #fff;
+  color: var(--white);
   height: 100%;
   padding: 20px;
   width: 95%;
@@ -108,7 +108,7 @@ a:active {
 .line {
   width: 14px;
   height: 2px;
-  background: #6070ff;
+  background: var(--primary-color);
   margin: 4px 10px;
   border-radius: 10px;
 }
@@ -140,7 +140,7 @@ nav {
   background-image: url("../images/mob-head-bg.png");
   background-repeat: no-repeat;
   border-radius: 0 0 0 100px;
-  background-color: #ffff;
+  background-color: var(--white);
   height: 650px;
   align-items: center;
 }
@@ -152,13 +152,13 @@ nav {
 .headline {
   font-size: 52px;
   font-weight: bold;
-  color: #172b4d;
+  color: var(--navy-blue);
   padding-top: 40px;
 }
 
 .headline-paragraph {
   font-size: 20px;
-  color: #172b4d;
+  color: var(--navy-blue);
 }
 
 .connect {
@@ -171,27 +171,27 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 60%;
-  color: #505f79;
+  color: var(--lighter-navy-blue);
 }
 
 .button {
   font-size: 20px;
-  border: solid 1px #6070ff;
-  color: #6070ff;
+  border: solid 1px var(--primary-color);
+  color: var(--primary-color);
   border-radius: 10px;
   margin: 50px 0 50px 0;
   padding: 15px;
-  background-color: #fff;
+  background-color: var(--white);
   width: 40%;
 }
 
 .button:hover {
-  background-color: #6070ff;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--white);
 }
 
 .footer-container {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 0 100px 0 0;
 }
 
@@ -202,19 +202,19 @@ nav {
 .about-title {
   font-size: 40px;
   font-weight: bold;
-  color: #172b4d;
+  color: var(--navy-blue);
   padding: 20px 0 0 0;
   margin: 0;
 }
 
 .btn {
   font-size: 20px;
-  border: solid 1px #6070ff;
-  color: #6070ff;
+  border: solid 1px var(--primary-color);
+  color: var(--primary-color);
   border-radius: 10px;
   margin: 10px 0 20px 0;
   padding: 12px;
-  background-color: #fff;
+  background-color: var(--white);
   width: 50%;
 }
 
@@ -261,7 +261,7 @@ nav {
 }
 
 .form {
-  color: #fff;
+  color: var(--white);
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -280,7 +280,7 @@ nav {
 }
 
 .f-input {
-  background-color: #fff;
+  background-color: var(--white);
   border: solid 1px #dfe1e6;
   border-radius: 10px;
   padding: 10px;
@@ -290,8 +290,8 @@ nav {
   width: 150px;
   height: 50px;
   border-radius: 10px;
-  background-color: #fff;
-  color: #6070ff;
+  background-color: var(--white);
+  color: var(--primary-color);
 }
 
 .form-text {
@@ -313,14 +313,14 @@ nav {
 }
 
 .form-button:hover {
-  background-color: #6070ff;
-  color: #fff;
-  border: solid 2px #fff;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: solid 2px var(--white);
 }
 
 .btn:hover {
-  background-color: #6070ff;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--white);
 }
 
 /* Works & Modal Styles */
@@ -500,7 +500,6 @@ button:disabled {
   color: var(--light-gray);
 }
 
-
 /* modals styling starts here */
 
 .modal {
@@ -534,10 +533,6 @@ button:disabled {
   align-items: center;
 }
 
-.top a i {
-  font-size: 1.5rem;
-}
-
 @keyframes modalopen {
   from {
     opacity: 0;
@@ -566,6 +561,10 @@ button:disabled {
 .modal-title i {
   font-size: 20px;
   color: var(--light-gray);
+}
+
+.top a i {
+  font-size: 1.5rem;
 }
 
 .modal-description {
@@ -713,7 +712,7 @@ input.success {
     background-size: 100% 100%;
     padding: 60px 55px 55px 55px;
     border-radius: 100px 0 0 0;
-    background-color: #6070ff;
+    background-color: var(--primary-color);
   }
 
   .form-des {
@@ -732,7 +731,6 @@ input.success {
   }
 
   /* Work Modal Styles */
-
 
   /* works section styling starts here */
   .works {
@@ -827,5 +825,4 @@ input.success {
     border-bottom: 3px solid var(--deep-navy-blue);
     font-weight: 900;
   }
-  
 }
