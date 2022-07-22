@@ -143,7 +143,7 @@ alt="Tonic project image"
 <div class="modal-description">
 <p class="project-text">${data.Modaldescription}</p>
 <div class="modal-tools">
-<ul class="project-tools">
+<ul class="project-tools mtools">
 ${data.technologies.map((tech) => `<li>${tech}</li>`).join('')}
 </ul>
 <span></span>
