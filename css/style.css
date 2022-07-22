@@ -389,7 +389,7 @@ nav {
 }
 
 .project-author li:not(:first-child)::before {
-  content: url(../assets/images/Counter.png);
+  content: url(../images/Counter.png);
   padding-right: 10px;
 }
 
