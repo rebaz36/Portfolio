@@ -843,7 +843,6 @@ form ul li textarea:focus {
     display: flex;
     flex-direction: column;
     margin-top: 24px;
-
   }
 
   .buttons {
